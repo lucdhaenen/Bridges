@@ -1,0 +1,255 @@
+﻿/* Algemene opmaak */
+body {
+    margin: 0;
+    padding: 0;    
+    background: url('../img/bg.jpg');
+    background-size: contain;
+    width:100%;
+    font-family: Verdana, Arial,sans-serif; 
+    font-size: 12px;    
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width:90%;
+}
+.content {
+    color: #808080;  
+    background: url(../img/bg_content.jpg);
+    background-size: 100%;    
+}
+
+/* Opmaak logo en search */
+#logosearch {
+    background: url('../img/bg_container.jpg');
+    background-size: 110%;
+    background-position: center;
+    color: red;
+    margin-top: 1em;    
+    height: 6.5em;    
+}
+#logo {
+    float: left; 
+    margin-left: 2em;  
+    height: 6.5em; 
+    width: 30em;   
+}
+#logo img {
+    float: left;
+    margin: 0 1em;   
+}
+#searchBox {
+    float: right;
+    margin-right: 2em;
+    margin-top:4em;
+}
+input[type=button]{
+ background:transparent;
+ border:0;
+ color: red;
+}
+
+/* Opmaak nav-top */
+#navtop {
+    background: url(../img/bg_nav1.jpg) repeat-x;
+    height: 1.5em; 
+    text-align:center; 
+    font-size: 1.5em;    
+}
+#navtop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    float: right;
+    height: 1.5em;   
+}
+#navtop ul li {
+    display: inline;
+}
+#navtop ul li a {
+    display: inline-block;
+    width: 7em;       
+    color:white;
+    text-decoration: none;    
+}
+#navtop a:hover {
+    background: url(../img/nav1_bg_on.jpg) repeat;
+    width: 7em;
+}
+
+/* Opmaak map */
+#map img{
+    width: 100%;    
+    position: relative; 
+    height: auto; 
+    display:block;       
+}
+
+#maptext {
+    float: right;
+    width: 23%;
+    position: absolute;
+    left: 69%;
+    top: 20%;
+    color: white;    
+}
+#maptext p {
+    font-size: 1.5em;
+}
+
+/* Opmaak navmid */
+#navmid {
+    background: url(../img/bg_nav2.jpg) repeat-x;
+    height: 1.5em; 
+    text-align:center; 
+    font-size: 1.5em;  
+}
+#navmid ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    float: left;
+    height: 1.5em;   
+}
+#navmid ul li {
+    display: inline;
+}
+#navmid ul li a {
+    display: inline-block;
+    width: 12em;    
+    color:white;
+    text-decoration: none;    
+}
+#navmid a:hover {
+    background: url(../img/nav2_bg_curr.jpg) repeat;
+    width: 12em;
+}
+
+/* Opmaak navbottom */
+#navbottom {
+    background: url(../img/bg_nav3.jpg) repeat-x;    
+    height: 1.8em; 
+    text-align:center; 
+    font-size: 1.2em;    
+}
+#navbottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    float: left; 
+    height: 1.8em;     
+}
+#navbottom a {
+    margin-top: 0.3em;
+}
+#navbottom ul li {
+    display: inline;
+}
+#navbottom ul li a {
+    display: inline-block;
+    width: 15em;       
+    text-decoration: none;
+    color: #808080;      
+}
+#navbottom a:hover { 
+    background: url(../img/bg_nav3_curr.jpg) repeat;   
+    width: 15em;
+}
+
+/* Opmaak inhoud */
+
+a {
+    color:red;
+}
+#welcome {
+    text-transform: uppercase;
+    color: red;
+    font-size:1.4em;    
+}
+.bdg {
+    text-transform: uppercase;
+    color: blue;
+}
+#left {
+    width: 68%;    
+    float: left;
+    padding: 3em;
+}
+#right {
+    width: 24%;
+    float: right;    
+}
+#contenttitle img {
+    float: left;
+    margin-top: 1.2em;
+}
+#contenttitle h1 {
+    float: left;
+    
+}
+#left h1 {
+    margin: 0 0.5em;
+    color: blue;
+}
+#left p {
+    margin-left: 2em;
+}
+#bold {
+    font-weight: bold;
+    color: blue;
+}
+#funding {
+    background: url(../img/bg_leftcol.jpg);
+    background-size: 100% auto;    
+    height: 14em;
+    margin: 2em;
+    padding: 2em;
+}
+#funding h2 {
+    color: red;
+}
+#IDF {
+    margin: 4em;
+}
+
+/* Opmaak footers */
+
+#footer_top {
+    text-align: center;
+    background: url(../img/bg_footer.jpg) no-repeat;
+    background-size: 103%;
+    background-position: center;
+    height: 5.5em;
+}
+#footer_top p {
+    margin: 0;
+    padding-top: 2.5em;
+    color: #808080; 
+}
+#footer_bottom {
+    text-align: center;
+    color: white;
+    margin-bottom:0.5em;
+}
+
+.clear { clear:both; }
+
+/*
+clearfix hack
+http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.clearFix:before, .clearFix:after {
+content: " ";
+display: table;
+}
+.clearFix:after {
+clear: both;
+}
+/* enkel voor IE6/7 */
+.clearFix {
+*zoom: 1;
+}
